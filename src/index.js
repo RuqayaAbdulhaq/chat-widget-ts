@@ -7,5 +7,5 @@ class ChatComponentElement extends HTMLElement {
     render(ChatComponent, this);
   }
 }
-
-customElements.define('chat-widget', ChatComponentElement);
+document.getElementsByTagName('body').appendChild(ChatComponentElement);
+// customElements.define('chat-widget', ChatComponentElement);
