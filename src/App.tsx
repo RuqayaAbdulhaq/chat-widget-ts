@@ -1,10 +1,10 @@
 import './App.css'
-
+import ChatWidget from './components/chat-widget'
 function App() {
   
   return (
     <>
-      
+      <ChatWidget/>
     </>
   )
 }
